@@ -1,7 +1,7 @@
 package lesson2;
 
 public class Main {
-
+//1
     public static void main(String[] args) {
 
         String[][] arr = new String[][]{{"1", "2", "4", "4"}, {"5", "6", "7", "8"}, {"3", "8", "1", "2"}, {"2", "6", "7", "3"}};
