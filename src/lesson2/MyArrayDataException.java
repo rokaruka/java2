@@ -1,5 +1,5 @@
 package lesson2;
-
+//2
 public class MyArrayDataException extends Exception {
     public int i;
     public int j;
