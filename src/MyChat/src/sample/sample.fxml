@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<FlowPane alignment="TOP_CENTER" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="sample.Controller">
+    <stylesheets>
+        <URL value="@/css/style.css" />
+    </stylesheets>
+
+
+    <TextArea fx:id="textArea" prefHeight="500" prefWidth="850" editable="false" />
+
+    <TextField fx:id="textField" prefWidth="800" promptText="input message" />
+
+    <Button defaultButton="true" onAction="#clickSend" text="Send..." />
+</FlowPane>
